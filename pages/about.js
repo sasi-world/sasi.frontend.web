@@ -1,11 +1,11 @@
-import App from '../components/App'
-import Header from '../components/Header'
+import App from "../components/App";
+import Header from "../components/Header";
 
 const AboutPage = () => (
   <App>
     <Header />
     <article>
-      <h1>The Idea Behind This Example</h1>
+      <h1 className="bg-blue-500">The Idea Behind This Example</h1>
       <p>
         <a href="https://www.apollographql.com/client/">Apollo</a> is a GraphQL
         client that allows you to easily query the exact data you need from a
@@ -15,17 +15,17 @@ const AboutPage = () => (
         are run, fetching more results from the server.
       </p>
       <p>
-        In this simple example, we integrate Apollo seamlessly with{' '}
-        <a href="https://github.com/vercel/next.js">Next</a> by calling{' '}
+        In this simple example, we integrate Apollo seamlessly with{" "}
+        <a href="https://github.com/vercel/next.js">Next</a> by calling{" "}
         <a href="https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation">
           getStaticProps
-        </a>{' '}
+        </a>{" "}
         at our Page component. This approach lets us opt out of getInitialProps
-        and let us use all the niceties provided by{' '}
+        and let us use all the niceties provided by{" "}
         <a href="https://github.com/vercel/next.js">Next</a>.
       </p>
       <p>
-        On initial page load, while on the server and inside{' '}
+        On initial page load, while on the server and inside{" "}
         <a href="https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation">
           getStaticProps
         </a>
@@ -40,6 +40,6 @@ const AboutPage = () => (
       </p>
     </article>
   </App>
-)
+);
 
-export default AboutPage
+export default AboutPage;
