@@ -1,14 +1,12 @@
 service: sasi-frontend-web
 
 #frameworkVersion: "1.35.1"
-plugins:
-  - serverless-nextjs-plugin
 
 provider:
   name: aws
   runtime: nodejs12.x
   stage: dev
-  region: us-east-1
+  region: eu-west-1
   environment:
     SLS_DEBUG: true
 
