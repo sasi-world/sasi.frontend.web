@@ -15,13 +15,8 @@ provider:
 package:
   exclude:
     - ./**
-
-custom:
-  serverless-nextjs:
-    assetsBucketName: pmb-plus-web-3-dev-serverlessdeploymentbucket-1o33kp0ogblch
-    staticDir: ./static
-    createAssetBucket: false
-    cloudFront: true
+myNextApplication:
+  component: "@sls-next/serverless-component@{version_here}"
 
 resources:
   - ${file(assets-pmbplus.yml)}
