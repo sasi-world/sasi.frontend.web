@@ -1,6 +1,6 @@
-import React, { Children } from 'react';
+import React, {children} from 'react';
 
-const GreenButton = (children) => {
+const GreenButton = ({children}) => {
     
     
     return(
