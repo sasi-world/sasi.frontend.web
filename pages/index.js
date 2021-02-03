@@ -1,9 +1,11 @@
 import App from "../components/App";
+import {GreenButton} from "./components/ui/buttons"
 // import { initializeApollo, addApolloState } from "../lib/apolloClient";
 
 const IndexPage = () => (
   <App>
     <h1 className="text-green-500 font-display p-5">WELCOME TO SASSY WORLD</h1>
+    <GreenButton>Im a green Button</GreenButton>
     <p className="text-green-700 font-display p-5">
       We are busy making a PLACE to get to multirracial stock images :D
     </p>
