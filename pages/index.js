@@ -1,5 +1,5 @@
 import App from "../components/App";
-import {GreenButton} from "./components/ui/buttons"
+import {GreenButton} from "../components/ui/buttons"
 // import { initializeApollo, addApolloState } from "../lib/apolloClient";
 
 const IndexPage = () => (
