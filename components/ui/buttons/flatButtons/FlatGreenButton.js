@@ -1,7 +1,7 @@
 import React, {children} from 'react';
 import PropTypes from "prop-types";
 
-const GreenButton = ({
+const FlatGreenButton = ({
     className = "",
     onClick,
     children,
@@ -12,7 +12,7 @@ const GreenButton = ({
     
     
     return(
-        <button className ={`${className} cursor-pointer rounded-lg shadow-md py-2 bg-gradient-to-r from-gradient-three-colorA to-gradient-three-colorB `}
+        <button className ={`${className} uppercase cursor-pointer rounded-lg shadow-md py-2 text-flat-600 bg-transparent  border-2 border-solid  hover:bg-flat-600 hover:text-white active:bg-flat-600`}
         onClick ={onClick}
         disabled ={disabled}
         {...props}
@@ -30,5 +30,5 @@ const propTypes ={
     disabled: PropTypes.bool,
 };
 
-GreenButton.propTypes = propTypes;  
-export default GreenButton;
+FlatGreenButton.propTypes = propTypes;  
+export default FlatGreenButton;
