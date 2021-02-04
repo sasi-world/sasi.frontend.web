@@ -1,13 +1,39 @@
 import React, {children} from 'react';
+import PropTypes from "prop-types";
 
-const GreenButton = ({children}) => {
+const GreenButton = ({
+    className = "",
+    onClick,
+    children,
+    disabled = false,
+    isLoading,
+    large,
+    long,
+    ...props
+
+}) => {
     
     
     return(
-        <button className = "cursor pointer rounded-lg shadow-2xl py-2 bg-gradient-to-r from-gradient-three-colorA to-gradient-three-colorB ">{children}</button>
-    );    
-}
+        <button className ={`${className} cursor-pointer rounded-lg shadow-md py-2 bg-gradient-to-r from-gradient-three-colorA to-gradient-three-colorB `}
+        onClick ={onClick}
+        disabled ={disabled}
+        {...props}
+        >
+            {children}
+        </button>
+ 
+    );  
+};
 
+const propTypes ={
+    className: PropTypes.string,
+    onClick: PropTypes.func,
+    children: PropTypes.string,
+    disabled: PropTypes.bool,
+};
+
+GreenButton.propTypes = propTypes;  
 export default GreenButton;
 
 //pull from development
