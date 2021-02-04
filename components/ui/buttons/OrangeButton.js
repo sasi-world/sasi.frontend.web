@@ -12,7 +12,7 @@ const OrangeButton = ({
     
     
     return(
-        <button className ={`${className} cursor-pointer rounded-full shadow-md py-2 bg-gradient-to-r from-gradient-two-colorA to-gradient-two-colorB `}
+        <button className ={`${className} uppercase cursor-pointer rounded-full shadow-md py-2 bg-gradient-to-r from-gradient-two-colorA to-gradient-two-colorB `}
         onClick ={onClick}
         disabled ={disabled}
         {...props}

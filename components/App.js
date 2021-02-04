@@ -28,6 +28,7 @@ export default function App({ children }) {
         }
         button {
           font-family: Montserrat;
+          font
           align-items: center;
           background-color: #22bad9;
           border: 0;
