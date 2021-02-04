@@ -6,9 +6,6 @@ const GreenButton = ({
     onClick,
     children,
     disabled = false,
-    isLoading,
-    large,
-    long,
     ...props
 
 }) => {
