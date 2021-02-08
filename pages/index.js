@@ -3,7 +3,8 @@ import {GreenButton} from "../components/ui/buttons";
 import {OrangeButton} from"../components/ui/buttons";
 import {SocialButton} from "../components/ui/buttons";
 import {FlatGreenButton} from "../components/ui/buttons";
-import {Body} from "../components/ui/typography"
+import {Body} from "../components/ui/typography";
+import {HeadingOne} from "../components/ui/Typography";
 // import { initializeApollo, addApolloState } from "../lib/apolloClient";
 
 const IndexPage = () => (
