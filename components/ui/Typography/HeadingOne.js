@@ -8,7 +8,7 @@ const HeadingOne = ({className, children}) => {
     );
 };
 
-HeadingOne.PropTypes = {
+HeadingOne.propTypes = {
     className: PropTypes.string,
     children: PropTypes.oneOfType([PropTypes.string, PropTypes.array])
 };

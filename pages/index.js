@@ -3,9 +3,10 @@ import {GreenButton} from "../components/ui/buttons";
 import {OrangeButton} from"../components/ui/buttons";
 import {SocialButton} from "../components/ui/buttons";
 import {FlatGreenButton} from "../components/ui/buttons";
-import {Body} from "../components/ui/typography";
+import {BodyOne} from "../components/ui/typography";
 import {HeadingOne} from "../components/ui/Typography";
 import {HeadingTwo} from "../components/ui/Typography";
+
 // import { initializeApollo, addApolloState } from "../lib/apolloClient";
 
 const IndexPage = () => (
@@ -16,7 +17,7 @@ const IndexPage = () => (
     <OrangeButton>Orange Button</OrangeButton>
     <HeadingOne>Heading One</HeadingOne>
     <HeadingTwo>Heading Two</HeadingTwo>
-    <Body>Gabion booty sheet swab reef chantey hang the jib fluke clipper pressgang. Stern handsomely yo-ho-ho list spanker coffer warp port holystone grog blossom. </Body>
+    <BodyOne>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus mattis</BodyOne>
     <SocialButton>SC</SocialButton>
 
 
