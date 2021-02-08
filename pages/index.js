@@ -3,7 +3,7 @@ import {GreenButton} from "../components/ui/buttons";
 import {OrangeButton} from"../components/ui/buttons";
 import {SocialButton} from "../components/ui/buttons";
 import {FlatGreenButton} from "../components/ui/buttons";
-import {BodyOne} from "../components/ui/typography";
+import {BodyOne} from "../components/ui/Typography";
 import {HeadingOne} from "../components/ui/Typography";
 import {HeadingTwo} from "../components/ui/Typography";
 
