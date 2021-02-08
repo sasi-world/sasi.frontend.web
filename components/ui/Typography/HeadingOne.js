@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const HeadingOne = ({className, children}) => {
 
     return(
-        <P className = {`${className} font-display text-4xl text-white`}>{children}</P>
+        <h1 className = {`${className} font-display text-4xl text-white text-bold`}>{children}</h1>
     );
 };
 

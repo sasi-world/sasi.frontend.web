@@ -13,6 +13,7 @@ const IndexPage = () => (
     <GreenButton>Green Button</GreenButton>
     <FlatGreenButton>Flat G Button</FlatGreenButton>
     <OrangeButton>Orange Button</OrangeButton>
+    <HeadingOne>Heading One</HeadingOne>
     <Body>Gabion booty sheet swab reef chantey hang the jib fluke clipper pressgang. Stern handsomely yo-ho-ho list spanker coffer warp port holystone grog blossom. </Body>
     <SocialButton>SC</SocialButton>
 

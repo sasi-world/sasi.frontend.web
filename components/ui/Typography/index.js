@@ -1,4 +1,4 @@
 import Body from './Body';
 import HeadingOne from './HeadingOne';
 
-export {Body}
+export {Body, HeadingOne}
