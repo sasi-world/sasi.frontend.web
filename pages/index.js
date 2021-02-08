@@ -5,6 +5,7 @@ import {SocialButton} from "../components/ui/buttons";
 import {FlatGreenButton} from "../components/ui/buttons";
 import {Body} from "../components/ui/typography";
 import {HeadingOne} from "../components/ui/Typography";
+import {HeadingTwo} from "../components/ui/Typography";
 // import { initializeApollo, addApolloState } from "../lib/apolloClient";
 
 const IndexPage = () => (
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <FlatGreenButton>Flat G Button</FlatGreenButton>
     <OrangeButton>Orange Button</OrangeButton>
     <HeadingOne>Heading One</HeadingOne>
+    <HeadingTwo>Heading Two</HeadingTwo>
     <Body>Gabion booty sheet swab reef chantey hang the jib fluke clipper pressgang. Stern handsomely yo-ho-ho list spanker coffer warp port holystone grog blossom. </Body>
     <SocialButton>SC</SocialButton>
 
