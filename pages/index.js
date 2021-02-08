@@ -16,7 +16,7 @@ const IndexPage = () => {
       <HeadingOne className = "text-center flex justify-center my-2 "> Welcome to SASI World</HeadingOne>
       <BodyOne className = " p-4 text-center">I'm baby readymade thundercats offal, semiotics swag subway tile actually jianbing. Enamel pin pok pok cliche live-edge disrupt put a bird on it tote bag master cleanse subway tile heirloom cred kombucha seitan kogi lo-fi. Raclette wolf celiac man braid, migas neutra taxidermy twee chartreuse adaptogen kombucha put a bird on it. Vape chicharrones pok pok try-hard humblebrag mumblecore. Waistcoat wayfarers tofu, pork belly viral edison bulb raw denim selvage cred gochujang mixtape cardigan distillery etsy leggings. Mixtape lomo readymade pok pok gluten-free crucifix. Etsy blog lo-fi everyday carry tbh.</BodyOne>  
   
-    <div className ="h-48 p-3 flex flex-wrap content-start text-center">
+    <div className =" p-3 flex justify-center">
       {socialLinks.map((link, index) => (
         <SocialButton key={index} >{link.icon} </SocialButton>
       ))}
