@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const HeadingTwo = ({className, children}) => {
 
     return(
-        <h1 className = {`${className} text-bold font-display text-xl text-white text-bold`}>{children}</h1>
+        <h2 className = {`${className} text-bold font-display text-xl text-white text-bold`}>{children}</h2>
     );
 };
 
