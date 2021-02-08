@@ -1,3 +1,5 @@
-import Body from './Body';
+import BodyOne from './BodyOne';
+import HeadingOne from './HeadingOne';
+import HeadingTwo from './HeadingTwo';
 
-export {Body}
+export {BodyOne, HeadingOne, HeadingTwo};
