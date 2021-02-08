@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const Body =({className, children}) => {
 
     return (
-        <p className ={`${className} font-display`}>{children}</p>
+        <p className ={`${className}  font-display text-sm text-white`}>{children}</p>
     )
 }
 
