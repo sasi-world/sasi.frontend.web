@@ -10,7 +10,7 @@ import { socialLinks } from "../constants";
 const IndexPage = () => {
   return (
     <App>
-      <HeadingOne className="text-center bg-clip-text text-transparent bg-gradient-to-r from-gradient-three-colorB to-gradient-three-colorA flex justify-center my-2 ">
+      <HeadingOne className="text-center bg-clip-text my text-transparent bg-gradient-to-r from-gradient-three-colorB to-gradient-three-colorA flex justify-center my-2 ">
         {" "}
         Welcome to SASI World
       </HeadingOne>
@@ -28,7 +28,9 @@ const IndexPage = () => {
 
       <div className=" p-3 flex justify-center">
         {socialLinks.map((link, index) => (
-          <SocialButton key={index}>{link.icon} </SocialButton>
+          <SocialButton className="mx-3" key={index}>
+            {link.icon}{" "}
+          </SocialButton>
         ))}
       </div>
     </App>
