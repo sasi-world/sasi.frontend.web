@@ -36,7 +36,12 @@ const IndexPage = () => {
       <div className=" p-3 flex justify-center">
         {socialLinks.map((link, index) => (
           <SocialButton className="mx-3 my-3" key={index}>
-            <a className=" text-gray-800" href={link.url}>
+            <a
+              className=" text-gray-800"
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {link.icon}{" "}
             </a>
           </SocialButton>
