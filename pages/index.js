@@ -2,7 +2,6 @@ import App from "../components/App";
 import { SocialButton } from "../components/ui/buttons";
 import { BodyOne } from "../components/ui/Typography";
 import { HeadingOne } from "../components/ui/Typography";
-import { HeadingTwo } from "../components/ui/Typography";
 import { socialLinks } from "../constants";
 
 // import { initializeApollo, addApolloState } from "../lib/apolloClient";
@@ -29,7 +28,9 @@ const IndexPage = () => {
       <div className=" p-3 flex justify-center">
         {socialLinks.map((link, index) => (
           <SocialButton className="mx-3" key={index}>
-            <a href={link.url}>{link.icon} </a>
+            <a className=" text-gray-800" href={link.url}>
+              {link.icon}{" "}
+            </a>
           </SocialButton>
         ))}
       </div>

@@ -24,6 +24,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "serverless-dotenv-plugin": "^2.1.1"
   },
   "license": "MIT"
