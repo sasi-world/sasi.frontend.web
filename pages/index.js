@@ -9,11 +9,11 @@ import { socialLinks } from "../constants";
 const IndexPage = () => {
   return (
     <App>
-      <HeadingOne className="text-center font-medium bg-clip-text my text-transparent bg-gradient-to-r from-gradient-three-colorB to-gradient-three-colorA flex justify-center my-2 ">
+      <HeadingOne className="text-center  font-medium bg-clip-text my text-transparent bg-gradient-to-r from-gradient-three-colorB to-gradient-three-colorA flex justify-center mt-20 my-2 ">
         {" "}
         Welcome to SASI World
       </HeadingOne>
-      <BodyOne className=" p-4 text-center">
+      <BodyOne className=" mt-10 p-4 text-center">
         Finding the right visuals to use for your business can be a daunting
         task! <br />
         <br />
@@ -33,7 +33,7 @@ const IndexPage = () => {
         content.
       </BodyOne>
 
-      <div className=" p-3 flex justify-center">
+      <div className=" mt-12 p-3 flex justify-center">
         {socialLinks.map((link, index) => (
           <SocialButton className="mx-3 my-3" key={index}>
             <a
