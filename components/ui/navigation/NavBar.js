@@ -1,11 +1,14 @@
 import React from "react";
+import Image from "next-images";
+import Logo from "./svg/Logo";
 
 const NavBar = () => {
   return (
     <header className="border-top bg-transparent flex items-center justify-between flex-wrap p-6">
       <div className="flex items-center flex-no-shrink text">
+        <Logo className=" mx-5" />
         <h1 className="text-white shadow-sm text-center font-bold font-display lg:text-3xl s:text-xl flex justify-center">
-          Sasi{" "}
+          SASI{" "}
         </h1>
       </div>
       {/* <span>
