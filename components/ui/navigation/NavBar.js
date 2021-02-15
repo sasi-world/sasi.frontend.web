@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next-images";
-import Logo from "./svg/Logo";
+import Logo from ".";
 import HeadingOne from "../Typography/HeadingOne";
 
 const NavBar = () => {
