@@ -50,15 +50,8 @@ const IndexPage = () => {
 
       <div className=" mt-12 p-3 flex justify-center">
         {socialLinks.map((link, index) => (
-          <SocialButton className="mx-3 my-3" key={index}>
-            <a
-              className=" text-gray-800"
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {link.icon}{" "}
-            </a>
+          <SocialButton className="mx-3 my-3" url={link.url} key={index}>
+            {link.icon}{" "}
           </SocialButton>
         ))}
       </div>

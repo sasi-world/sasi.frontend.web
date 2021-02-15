@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const SocialButton = ({
+  url,
   className = "",
   onClick,
   children,
@@ -15,7 +16,14 @@ const SocialButton = ({
       disabled={disabled}
       {...props}
     >
-      {children}
+      <a
+        className=" text-gray-800"
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {children}
+      </a>
     </button>
   );
 };
