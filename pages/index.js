@@ -13,25 +13,42 @@ const IndexPage = () => {
         {" "}
         Welcome to SASI World
       </HeadingOne>
-      <BodyOne className=" mt-10 p-4 text-center">
-        Finding the right visuals to use for your business can be a daunting
-        task! <br />
-        <br />
-        This is why we are creating SASI.
-        <br />
-        <br /> Content that is created to make your business stand out.
-        <br /> <br />
-        Get access to empowering imagery that promotes realness and celebrate
-        our unique differences.
-        <br />
-        <br />
-        Sign up and we'll notify you as soon as you can download some Free
-        Quality content! Get SASI imagery that speaks to your audience.
-        <br />
-        <br />
-        An easier way of marketing your product and business with relevant
-        content.
-      </BodyOne>
+      <div>
+        <BodyOne className=" mt-10 p-4 text-center">
+          Finding the right visuals to use for your business can be a daunting
+          task!
+        </BodyOne>
+
+        <BodyOne className=" mt-10 p-4 text-center">
+          This is why we are creating SASI.
+        </BodyOne>
+        <BodyOne className=" mt-10 p-4 text-center">
+          Content that is created to make your business stand out.
+        </BodyOne>
+        <BodyOne className=" mt-10 p-4 text-center">
+          Finding the right visuals to use for your business can be a daunting
+          task!
+        </BodyOne>
+
+        <BodyOne>This is why we are creating SASI.</BodyOne>
+
+        <BodyOne>
+          Content that is created to make your business stand out.
+        </BodyOne>
+
+        <BodyOne>
+          Get access to empowering imagery that promotes realness and celebrate
+          our unique differences.
+        </BodyOne>
+        <BodyOne>
+          Sign up and we'll notify you as soon as you can download some Free
+          Quality content! Get SASI imagery that speaks to your audience.
+        </BodyOne>
+        <BodyOne>
+          An easier way of marketing your product and business with relevant
+          content.
+        </BodyOne>
+      </div>
 
       <div className=" mt-12 p-3 flex justify-center">
         {socialLinks.map((link, index) => (

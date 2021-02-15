@@ -10,16 +10,6 @@ const NavBar = () => {
         <Image src={Logo} alt="Sasi logo" height={100} width={40} />
         <HeadingOne className="  text-white  text-center">SASI</HeadingOne>
       </div>
-      {/* <span>
-        <a
-          className="flex flex-row"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/Fullstack-Serverless-GraphQL/fullstack-serverless-graphql-docs"
-        >
-          <img src={Github} alt="github icon" />
-        </a>
-      </span> */}
     </header>
   );
 };
