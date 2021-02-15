@@ -17,6 +17,7 @@
     "graphql": "^15.3.0",
     "lodash": "4.17.20",
     "next": "latest",
+    "next-images": "^1.7.0",
     "postcss": "^8.2.4",
     "prop-types": "^15.7.2",
     "react": "^16.7.0",
@@ -24,6 +25,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "serverless-dotenv-plugin": "^2.1.1"
   },
   "license": "MIT"

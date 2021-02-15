@@ -1,11 +1,15 @@
 import React from "react";
+import Image from "next-images";
+import Logo from "./svg/Logo";
+import HeadingOne from "../Typography/HeadingOne";
 
 const NavBar = () => {
   return (
-    <header className="border-top bg-transparent flex items-center justify-between flex-wrap p-6">
+    <header className="border-top bg-transparent flex justify-center flex-wrap p-6">
       <div className="flex items-center flex-no-shrink text">
-        <h1 className="text-yellow-500 font-bold font-display lg:text-3xl s:text-xl">
-          Sasi{" "}
+        <Logo className=" mx-2" />
+        <h1 className=" text-2xl text-white shadow-sm text-center font-medium font-display lg:text-3xl s:text-xl flex justify-center">
+          SASI
         </h1>
       </div>
       {/* <span>
